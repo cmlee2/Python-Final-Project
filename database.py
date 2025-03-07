@@ -67,7 +67,6 @@ class DataBase():
 
     def add_item(self, item_type, title = None, artist=None):
         '''Function to add items to the ranking system
-
         '''
         # Check user input
         if item_type not in ['song', 'album', 'artist']:

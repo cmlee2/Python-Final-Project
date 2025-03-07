@@ -291,6 +291,36 @@
             ],
             "duration_s": 0.0,
             "total_plays": 9227204
+        },
+        "b179aa6d-967e-4935-beec-fd0d2c4ebd83": {
+            "song_name": "sextape",
+            "artist": "deftones",
+            "album": "Sextape",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/3a89d9b1c28139f926e21c3470cfbfe0.jpg",
+            "tags": [
+                [
+                    "alternative metal",
+                    "100"
+                ],
+                [
+                    "alternative rock",
+                    "92"
+                ],
+                [
+                    "metal",
+                    "76"
+                ],
+                [
+                    "beautiful",
+                    "49"
+                ],
+                [
+                    "Deftones",
+                    "49"
+                ]
+            ],
+            "duration_s": 241.0,
+            "total_plays": 17492764
         }
     },
     "song_rankings": [
@@ -302,6 +332,7 @@
         "4d44b4fb-78e9-4c2c-8c56-4360a1364479",
         "773474fe-04f7-46f1-80a8-2d18ce44e69c",
         "17e47c71-5f6b-4a7c-90fe-d2c98e36256d",
+        "b179aa6d-967e-4935-beec-fd0d2c4ebd83",
         "5348a122-ea4c-44f5-9047-5d06694dc6bf",
         "b1ad80eb-ac85-48ca-a633-67197574666c"
     ],

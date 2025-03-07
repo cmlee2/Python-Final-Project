@@ -82,7 +82,6 @@ def get_artist_info(artist = None):
             'artist_name': str(artist_data.name),
             'listener_count': int(artist_data.get_listener_count()),
             'top_tracks' : track_list,
-            # 'id' : shortuuid.uuid()[:6]
 
         }
         # Return Data
@@ -104,7 +103,6 @@ def get_album_info(artist = None, album = None):
             'album_cover' : str(album_data.get_cover_image()),
             'artist': str(album_data.get_artist()),
             'track_list' : track_list,
-            # 'id' : shortuuid.uuid()[:6]
 
         }
         # Return Album Data
