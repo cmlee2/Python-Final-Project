@@ -1,4 +1,13 @@
 # Python-Final-Project
+NOTE: YOU NEED TO HAVE THE LAST FM API KEY
+
+Run these lines:
+pipenv shell
+
+hypercorn main:app --bind 127.0.0.1:8000
+
+Then run last_fm_frontend.py
+
 
 Project idea #1: 
 I want to have a project where users can rate their favorite artists and songs and get music recommendations based on rankings. It would have methods to:
