@@ -20,8 +20,6 @@ def add_item():
     # Post to my API
     response = requests.post(f"{BASE_URL}/add_item/", json=payload)
 
-    # Debugging to see if API works
-    # print("\n🔍 API Response:", response.json())
 
     # Save response
     data = response.json()
@@ -55,13 +53,10 @@ def update_ranking(item_type, item_id, item_name):
         response = requests.post(f"{BASE_URL}/get_next_comparison/", json={"item_type": item_type, "item_id": item_id})
         data = response.json()
 
-        # Debugging
-        # print("\n🔍 API Response (Get Comparison):", json.dumps(data, indent=2))
 
         # If you can't find anything to compare with, ranking is done
         if "compare_with" not in data or not data["compare_with"]:
-            print("\n✅ Ranking is complete!")
-            break  # ✅ Stop ranking when done
+            print("\n Ranking is complete!")
 
         # Get comparison id and name
         comparison_id = data["compare_with"]
@@ -87,9 +82,6 @@ def update_ranking(item_type, item_id, item_name):
         response = requests.post(f"{BASE_URL}/update_ranking/", json=payload)
         data = response.json()
 
-        # Debugging
-        # print("\n🔍 API Response (Update Ranking):", json.dumps(data, indent=2))  
-
         try:
             data = response.json()
         except requests.exceptions.JSONDecodeError:
@@ -114,8 +106,6 @@ def return_rankings():
     # Pull Response
     response = requests.post(f"{BASE_URL}/ranked/", json=payload)
 
-    # Debugging
-    # print("\n🔍 API Response:", response.json())
 
     # Save ranking data
     rankings = response.json()
@@ -146,8 +136,6 @@ def return_recommendations():
     # Post Request
     response = requests.post(f"{BASE_URL}/recommendations/", json=payload)
 
-    # Debugging
-    # print("\n🔍 API Response:", response.json())
 
     # If response is empty say it didn't work
     if not response.json():

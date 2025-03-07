@@ -81,7 +81,7 @@ def get_next_comparison(request: GetComparisonRequest):
             "compare_with_name": comparison_name
         }
 
-    # ✅ Ensure "compare_with" is included (to prevent KeyError in CLI)
+    # Ensure "compare_with" is included 
     return {
         "message": "Ranking complete",
         "compare_with": None,
