@@ -67,9 +67,6 @@ class DataBase():
 
     def add_item(self, item_type, title = None, artist=None):
         '''Function to add items to the ranking system
-        param item_type: 'song', 'artist', 'album
-        param title: name of song or album
-        param artist:n name of artist
 
         '''
         # Check user input
@@ -144,11 +141,6 @@ class DataBase():
     def update_ranking(self, item_type, item_id, comparison_id, user_preference):
         """
         Updates the ranking based on user input and returns the next comparison.
-        
-        :param item_type: "song", "album", or "artist"
-        :param item_id: ID of the item being ranked
-        :param comparison_id: ID of the item it was compared with
-        :param user_preference: "better" if item should be ranked higher, "worse" otherwise
         """
         # See if key is currently being ranked
         key = (item_type, item_id)
@@ -179,8 +171,6 @@ class DataBase():
 
     def get_next_comparison(self, item_type, item_id):
         """Finds the next item for ranking comparison using binary search.
-        params item_type: song, album, artist
-        params item_id: uuid to identify the current song being looked at
         """
         # Key
         key = (item_type, item_id)
@@ -203,7 +193,6 @@ class DataBase():
 
     def display_rankings(self, item_type):
         '''Display the rankings
-        params item_type: song, artist, album
         '''
         # List comprehension to return ranking info
         ranked_info = [self._data[item_type][id] for id in self._rankings[item_type]]
@@ -212,8 +201,6 @@ class DataBase():
 
     def get_recommendations(self, artist=None, track = None):
         '''Get recommendations for a song
-        params artist: artistn name
-        params track: track name
         '''
         # check to see if there are recommendations
         recommendations = find_recommendations(artist=artist, track=track)
