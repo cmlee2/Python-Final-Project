@@ -1,27 +1,29 @@
 from pydantic import BaseModel
 
-# Class with data I want to store
-class Song(BaseModel):
-    song_name: str
-    artist: str
-    song_id: str
-    album: str
-    album_cover: str
-    tags: list
-    duration_s: float 
-    total_plays: int
+# What the update Ranking Request Receives
+class UpdateRankingRequest(BaseModel):
+    item_type: str # "song", "album", or "artist"
+    item_id: str
+    comparison_id: str
+    user_preference: str  # "better" or "worse"
 
-class SongRequest(BaseModel):
-    artist: str
-    title: str
 
-class SongResponse(BaseModel):
-    song_name: str
+# Ask to add item
+class AddItemRequest(BaseModel):
+    item_type: str  # "song", "album", or "artist"
+    title: str = None # Can be none if it's just finding the artist
+    artist: str 
+
+# Find next comparison
+class GetComparisonRequest(BaseModel):
+    item_type: str # "song", "album", or "artist"
+    item_id: str
+
+# Ask for the ranking list
+class RankingList(BaseModel):
+    item_type: str # "song", "album", or "artist"
+
+# Ask for Recommendation
+class RecommendationRequest(BaseModel):
     artist: str
-    song_id: str
-    album: str
-    album_cover: str
-    tags: list
-    duration_s: float 
-    total_plays: int
-    reference_song_id : str
+    track: str

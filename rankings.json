@@ -1,0 +1,41 @@
+{
+    "song_data": {
+        "46c7471d-a036-42b3-8db6-9f3e59191879": {
+            "song_name": "Chihiro",
+            "artist": "Billie Eilish",
+            "album": "HIT ME HARD AND SOFT",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/e69971625c379772fb79213dccfa194f.jpg",
+            "tags": [
+                [
+                    "alt-pop",
+                    "100"
+                ],
+                [
+                    "peter",
+                    "80"
+                ],
+                [
+                    "psychedelic pop",
+                    "60"
+                ],
+                [
+                    "deep house",
+                    "60"
+                ],
+                [
+                    "2024",
+                    "60"
+                ]
+            ],
+            "duration_s": 303.0,
+            "total_plays": 20303728
+        }
+    },
+    "song_rankings": [
+        "46c7471d-a036-42b3-8db6-9f3e59191879"
+    ],
+    "album_data": {},
+    "album_rankings": [],
+    "artist_data": {},
+    "artist_rankings": []
+}
