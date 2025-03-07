@@ -130,7 +130,7 @@ class DataBase():
         elif item_type == 'album':
             return {
                 'item_id': item_id,
-                'item_name' : self._data[item_type][item_id]['album_name'],
+                'name' : self._data[item_type][item_id]['album_name'],
                 'compare_with': comparison_id,
                 'compare_with_name' : self._data[item_type][comparison_id]['album_name']
             }

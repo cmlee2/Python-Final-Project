@@ -10,8 +10,9 @@ def add_item():
     item_type = input("Enter type (song/album/artist): ").strip().lower()
     if item_type not in ['song','album', 'artist']:
         raise NameError('Enter a valid format (song, album, artist)')
-    title = input("Enter title: ").strip()
-    artist = input("Enter artist:").strip() if item_type != "artist" else None
+    title = input("Enter title: ").strip() if item_type != "artist" else ''
+    artist = input("Enter artist:").strip()
+
 
     # Format of the Base model I am sending
     payload = {"item_type": item_type, "title": title, "artist": artist}
@@ -25,6 +26,7 @@ def add_item():
     # Save response
     data = response.json()
     
+    print(data)
     # See if you can make a comparison
     try:
         # Get item_id, comparison id and names from file
@@ -37,7 +39,7 @@ def add_item():
 
         # If you can compare, say what the comparison is
         if compare_with:
-            print(f"Compare with: {compare_with_name} ({compare_with})")
+            print(f"Compare with: {compare_with_name}")
             return item_type, item_id, item_name, compare_with  
     
     # Return None if no need to add
@@ -127,7 +129,7 @@ def return_rankings():
         if item_type == 'song':
             print(f"{index}: {rank['song_name']} - {rank['artist']} ({rank['album']})")
         elif item_type == 'album':
-            print(f"{index}: {rank['album_bame']} - {rank['artist']}")
+            print(f"{index}: {rank['album_name']} - {rank['artist']}")
         elif item_type == 'artist':
             print(f"{index}: {rank['artist_name']}")
     return 

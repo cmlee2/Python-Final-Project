@@ -29,7 +29,6 @@ def get_track_info (track = None,artist = None):
             song = {
                     'song_name' : str(track.get_title()),
                     'artist' : str(track.get_artist()),
-                    # 'id' : shortuuid.uuid()[:6],
                     'album' : str(album_name),
                     'album_cover' : str(image_url),
                     'tags' : tag_list,
@@ -80,8 +79,8 @@ def get_artist_info(artist = None):
 
         # Dictionary to store data
         artist = {
-            'artist_name': artist_data.name,
-            'listener_count': artist_data.get_listener_count(),
+            'artist_name': str(artist_data.name),
+            'listener_count': int(artist_data.get_listener_count()),
             'top_tracks' : track_list,
             # 'id' : shortuuid.uuid()[:6]
 
@@ -101,9 +100,9 @@ def get_album_info(artist = None, album = None):
         track_list = [(track.title) for track in tracks]
         # Dictionary to store data
         album_data = {
-            'album' : album_data.get_name(),
-            'album_cover' : album_data.get_cover_image(),
-            'artist': album_data.get_artist(),
+            'album_name' : str(album_data.get_name()),
+            'album_cover' : str(album_data.get_cover_image()),
+            'artist': str(album_data.get_artist()),
             'track_list' : track_list,
             # 'id' : shortuuid.uuid()[:6]
 
@@ -114,3 +113,4 @@ def get_album_info(artist = None, album = None):
     # Return None if not found
     return None
 
+print(get_album_info(artist='kendrick lamar',album='gnx'))

@@ -2,11 +2,14 @@
 NOTE: YOU NEED TO HAVE THE LAST FM API KEY
 
 Run these lines:
+
+In a separate terminal:
 pipenv shell
 
 hypercorn main:app --bind 127.0.0.1:8000
 
-Then run last_fm_frontend.py
+
+Then run last_fm_frontend.py in main terminal
 
 
 Project idea #1: 

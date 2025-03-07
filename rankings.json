@@ -1,41 +1,222 @@
 {
     "song_data": {
-        "46c7471d-a036-42b3-8db6-9f3e59191879": {
-            "song_name": "Chihiro",
-            "artist": "Billie Eilish",
-            "album": "HIT ME HARD AND SOFT",
-            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/e69971625c379772fb79213dccfa194f.jpg",
+        "9d452dee-943b-4c5a-bb1e-7fdbce1c7b30": {
+            "song_name": "Love Story",
+            "artist": "Taylor Swift",
+            "album": "Fearless",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/d8888f990ce044e4c856550a7041c83e.jpg",
             "tags": [
                 [
-                    "alt-pop",
+                    "country",
                     "100"
                 ],
                 [
-                    "peter",
-                    "80"
+                    "taylor swift",
+                    "76"
                 ],
                 [
-                    "psychedelic pop",
-                    "60"
+                    "Love",
+                    "58"
                 ],
                 [
-                    "deep house",
-                    "60"
+                    "pop",
+                    "53"
                 ],
                 [
-                    "2024",
-                    "60"
+                    "romantic",
+                    "41"
                 ]
             ],
-            "duration_s": 303.0,
-            "total_plays": 20303728
+            "duration_s": 350.0,
+            "total_plays": 10259470
+        },
+        "dab931a9-a23a-44c7-bb1f-4405d7d6956a": {
+            "song_name": "luther (ft. sza)",
+            "artist": "kendrick lamar",
+            "album": "Unknown",
+            "album_cover": "No Image Available",
+            "tags": [],
+            "duration_s": 0.0,
+            "total_plays": 334
         }
     },
     "song_rankings": [
-        "46c7471d-a036-42b3-8db6-9f3e59191879"
+        "dab931a9-a23a-44c7-bb1f-4405d7d6956a",
+        "9d452dee-943b-4c5a-bb1e-7fdbce1c7b30"
     ],
-    "album_data": {},
-    "album_rankings": [],
-    "artist_data": {},
-    "artist_rankings": []
+    "album_data": {
+        "46a11e1d-b5d8-4463-9fde-ce11b90a08c4": {
+            "album_name": "gnx",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/a79564a9768d05272682b252deb02079.png",
+            "artist": "kendrick lamar",
+            "track_list": [
+                "wacced out murals",
+                "squabble up",
+                "luther",
+                "man at the garden",
+                "hey now",
+                "reincarnated",
+                "tv off",
+                "dodger blue",
+                "peekaboo",
+                "heart pt. 6",
+                "gnx",
+                "gloria"
+            ]
+        },
+        "67ad31a8-13ea-40ee-b987-036b6b0adbf9": {
+            "album_name": "Chromakopia",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/8c0b389bb4cbf522bc5a2b58e15b6620.jpg",
+            "artist": "Tyler, the Creator",
+            "track_list": [
+                "ST. CHROMA",
+                "Rah Tah Tah",
+                "NOID",
+                "DARLING, I",
+                "Hey Jane",
+                "I Killed You",
+                "Judge Judy",
+                "Sticky",
+                "Take Your Mask Off",
+                "TOMORROW",
+                "THOUGHT I WAS DEAD",
+                "Like Him",
+                "Balloon",
+                "I Hope You Find Your Way Home"
+            ]
+        },
+        "f01e9ee5-5c38-4f0f-bcb0-eece5bfb5b77": {
+            "album_name": "Fearless",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/d8888f990ce044e4c856550a7041c83e.jpg",
+            "artist": "Taylor Swift",
+            "track_list": [
+                "Fearless",
+                "Fifteen",
+                "Love Story",
+                "Hey Stephen",
+                "White Horse",
+                "You Belong with Me",
+                "Breathe (feat. Colbie Caillat)",
+                "Tell Me Why",
+                "You're Not Sorry",
+                "The Way I Loved You",
+                "Forever & Always",
+                "The Best Day",
+                "Change"
+            ]
+        },
+        "18bd04ca-a461-4306-9359-611ae5a2395c": {
+            "album_name": "The Forever Story",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/f5ebc39b1f907ab9e0df8ea47841f0c5.jpg",
+            "artist": "JID",
+            "track_list": [
+                "Galaxy",
+                "Raydar",
+                "Dance Now",
+                "Crack Sandwich",
+                "Can't Punk Me",
+                "Surround Sound",
+                "Kody Blu 31",
+                "Bruddanem",
+                "Sistanem",
+                "Can't Make U Change",
+                "Stars",
+                "Just In Time",
+                "Money",
+                "Better Days",
+                "Lauder Too"
+            ]
+        }
+    },
+    "album_rankings": [
+        "18bd04ca-a461-4306-9359-611ae5a2395c",
+        "46a11e1d-b5d8-4463-9fde-ce11b90a08c4",
+        "f01e9ee5-5c38-4f0f-bcb0-eece5bfb5b77",
+        "67ad31a8-13ea-40ee-b987-036b6b0adbf9"
+    ],
+    "artist_data": {
+        "04aee1db-eacb-4979-a848-04a816769ec8": {
+            "artist_name": "kendrick lamar",
+            "listener_count": 4299217,
+            "top_tracks": [
+                [
+                    "HUMBLE.",
+                    24150969
+                ],
+                [
+                    "Money Trees",
+                    26392165
+                ],
+                [
+                    "All The Stars (with SZA)",
+                    21904394
+                ],
+                [
+                    "Alright",
+                    23911085
+                ],
+                [
+                    "Not Like Us",
+                    21677531
+                ]
+            ]
+        },
+        "eb3bc28e-4afe-4239-927b-b8d2e91fee80": {
+            "artist_name": "Billie Eilish",
+            "listener_count": 3479881,
+            "top_tracks": [
+                [
+                    "BIRDS OF A FEATHER",
+                    37034755
+                ],
+                [
+                    "bad guy",
+                    16482266
+                ],
+                [
+                    "when the party's over",
+                    16757214
+                ],
+                [
+                    "Lunch",
+                    19680341
+                ],
+                [
+                    "Happier Than Ever",
+                    22590058
+                ]
+            ]
+        },
+        "7c483b2c-58e4-4d67-af1e-561123d26d9a": {
+            "artist_name": "Taylor Swift",
+            "listener_count": 5044897,
+            "top_tracks": [
+                [
+                    "Blank Space",
+                    23127635
+                ],
+                [
+                    "Cruel Summer",
+                    41277819
+                ],
+                [
+                    "Shake It Off",
+                    15804539
+                ],
+                [
+                    "carDIGan",
+                    36538958
+                ],
+                [
+                    "Style",
+                    26283945
+                ]
+            ]
+        }
+    },
+    "artist_rankings": [
+        "04aee1db-eacb-4979-a848-04a816769ec8",
+        "eb3bc28e-4afe-4239-927b-b8d2e91fee80",
+        "7c483b2c-58e4-4d67-af1e-561123d26d9a"
+    ]
 }
