@@ -100,7 +100,6 @@ class DataBase():
             self.save_rankings()
             # Return and let them know what was added
             if item_type == 'song':
-                print(self._data[item_type][item_id])
                 return f'{self._data[item_type][item_id]['song_name']} added'
             elif item_type == 'album':
                 return f'{self._data[item_type][item_id]['album_name']} added'

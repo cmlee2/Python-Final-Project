@@ -112,5 +112,3 @@ def get_album_info(artist = None, album = None):
     
     # Return None if not found
     return None
-
-print(get_album_info(artist='kendrick lamar',album='gnx'))

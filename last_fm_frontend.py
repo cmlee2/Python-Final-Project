@@ -26,7 +26,7 @@ def add_item():
     # Save response
     data = response.json()
     
-    print(data)
+
     # See if you can make a comparison
     try:
         # Get item_id, comparison id and names from file
@@ -68,7 +68,7 @@ def update_ranking(item_type, item_id, item_name):
         comparison_name = data.get("compare_with_name", "Unknown Comparison")
 
         # See which user prefers
-        print(f"\n Compare '{item_name}' with '{comparison_name}' ({comparison_id})")
+        print(f"\n Compare '{item_name}' with '{comparison_name}'")
         user_choice = input("Is the new item (better/worse) this one? ").strip().lower()
 
         # Confirm that user submitted right data
@@ -152,6 +152,7 @@ def return_recommendations():
     # If response is empty say it didn't work
     if not response.json():
         print ('No Recommendations Found, Please try again')
+        return
 
     # Return Recommendations
     recommendations = response.json()

@@ -1,54 +1,368 @@
 {
     "song_data": {
-        "9d452dee-943b-4c5a-bb1e-7fdbce1c7b30": {
-            "song_name": "Love Story",
-            "artist": "Taylor Swift",
-            "album": "Fearless",
-            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/d8888f990ce044e4c856550a7041c83e.jpg",
+        "61d912e5-c974-4673-a656-2f83280b826d": {
+            "song_name": "euphoria",
+            "artist": "Kendrick Lamar",
+            "album": "euphoria",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/b2946e7a8ca6279fd346cc4f6ae95087.jpg",
             "tags": [
                 [
-                    "country",
+                    "Diss",
                     "100"
                 ],
                 [
-                    "taylor swift",
-                    "76"
+                    "diss track",
+                    "84"
                 ],
                 [
-                    "Love",
-                    "58"
+                    "MySpotigramBot",
+                    "84"
+                ],
+                [
+                    "Hip-Hop",
+                    "67"
+                ],
+                [
+                    "2024",
+                    "67"
+                ]
+            ],
+            "duration_s": 383.0,
+            "total_plays": 11444194
+        },
+        "b1ad80eb-ac85-48ca-a633-67197574666c": {
+            "song_name": "squabble up",
+            "artist": "Kendrick Lamar",
+            "album": "GNX",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/a79564a9768d05272682b252deb02079.png",
+            "tags": [
+                [
+                    "hyphy",
+                    "100"
+                ],
+                [
+                    "Ratchet Music",
+                    "100"
+                ],
+                [
+                    "electro",
+                    "75"
+                ],
+                [
+                    "peter",
+                    "75"
+                ],
+                [
+                    "hardcore hip hop",
+                    "75"
+                ]
+            ],
+            "duration_s": 158.0,
+            "total_plays": 8534332
+        },
+        "773474fe-04f7-46f1-80a8-2d18ce44e69c": {
+            "song_name": "Cry For Me",
+            "artist": "The Weeknd",
+            "album": "Hurry Up Tomorrow (First Press)",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/bab1609e1f2b15d8dd471384faa6ea2e.jpg",
+            "tags": [
+                [
+                    "synthpop",
+                    "100"
+                ],
+                [
+                    "alternative rnb",
+                    "100"
+                ],
+                [
+                    "funk mandelao",
+                    "100"
+                ],
+                [
+                    "2025",
+                    "67"
+                ],
+                [
+                    "funk brasileiro",
+                    "67"
+                ]
+            ],
+            "duration_s": 224.0,
+            "total_plays": 2792060
+        },
+        "17e47c71-5f6b-4a7c-90fe-d2c98e36256d": {
+            "song_name": "A Cold Sunday",
+            "artist": "Lil Yachty",
+            "album": "A Cold Sunday",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/6bc81aef0af55971aa35e65e5b7ad0a3.jpg",
+            "tags": [
+                [
+                    "sunday",
+                    "100"
+                ],
+                [
+                    "jazz rap",
+                    "100"
+                ],
+                [
+                    "MySpotigramBot",
+                    "100"
+                ]
+            ],
+            "duration_s": 107.0,
+            "total_plays": 4072421
+        },
+        "5348a122-ea4c-44f5-9047-5d06694dc6bf": {
+            "song_name": "HONEST",
+            "artist": "Baby Keem",
+            "album": "DIE FOR MY BITCH",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/5bbd2deff99418af019ed977334414c3.jpg",
+            "tags": [
+                [
+                    "alternative rnb",
+                    "100"
+                ],
+                [
+                    "rnb",
+                    "60"
+                ],
+                [
+                    "pop rap",
+                    "60"
                 ],
                 [
                     "pop",
-                    "53"
+                    "20"
                 ],
                 [
-                    "romantic",
-                    "41"
+                    "alternative",
+                    "20"
                 ]
             ],
-            "duration_s": 350.0,
-            "total_plays": 10259470
+            "duration_s": 172.0,
+            "total_plays": 13501648
         },
-        "dab931a9-a23a-44c7-bb1f-4405d7d6956a": {
-            "song_name": "luther (ft. sza)",
-            "artist": "kendrick lamar",
-            "album": "Unknown",
-            "album_cover": "No Image Available",
-            "tags": [],
+        "73de2e14-1eaa-425d-b98e-e2b9d6507399": {
+            "song_name": "Sympathy is a knife",
+            "artist": "Charli xcx",
+            "album": "BRAT",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/b00527c6ae0cd1d4c9bf3706b130ad56.jpg",
+            "tags": [
+                [
+                    "electropop",
+                    "100"
+                ],
+                [
+                    "Electroclash",
+                    "75"
+                ],
+                [
+                    "bubblegum bass",
+                    "75"
+                ],
+                [
+                    "pop",
+                    "50"
+                ],
+                [
+                    "dance-pop",
+                    "50"
+                ]
+            ],
+            "duration_s": 154.0,
+            "total_plays": 11971294
+        },
+        "529473db-7b17-4122-974f-190738db9682": {
+            "song_name": "u",
+            "artist": "Kendrick Lamar",
+            "album": "To Pimp a Butterfly",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/86b35c4eb3c479da49c915d8771bbd1a.png",
+            "tags": [
+                [
+                    "jazz rap",
+                    "100"
+                ],
+                [
+                    "Conscious Hip Hop",
+                    "89"
+                ],
+                [
+                    "Hip-Hop",
+                    "67"
+                ],
+                [
+                    "hip hop",
+                    "67"
+                ],
+                [
+                    "experimental hip hop",
+                    "67"
+                ]
+            ],
+            "duration_s": 268.0,
+            "total_plays": 6175202
+        },
+        "5b7daa7c-6088-472b-8472-9c0afd3ffc4a": {
+            "song_name": "Talking to the Moon",
+            "artist": "Bruno Mars",
+            "album": "Doo-Wops & Hooligans",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/c3c4dde679eb3436694c2411fe0ff15c.jpg",
+            "tags": [
+                [
+                    "pop",
+                    "100"
+                ],
+                [
+                    "Love",
+                    "78"
+                ],
+                [
+                    "rnb",
+                    "70"
+                ],
+                [
+                    "Ballad",
+                    "70"
+                ],
+                [
+                    "Bruno Mars",
+                    "70"
+                ]
+            ],
+            "duration_s": 218.0,
+            "total_plays": 10356463
+        },
+        "4d44b4fb-78e9-4c2c-8c56-4360a1364479": {
+            "song_name": "Summertime Sadness",
+            "artist": "Lana Del Rey",
+            "album": "Born to Die - The Paradise Edition",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/99434582a5da4b9293ecfe754e0729ab.png",
+            "tags": [
+                [
+                    "indie",
+                    "100"
+                ],
+                [
+                    "pop",
+                    "98"
+                ],
+                [
+                    "female vocalists",
+                    "78"
+                ],
+                [
+                    "Lana Del Rey",
+                    "77"
+                ],
+                [
+                    "indie pop",
+                    "69"
+                ]
+            ],
+            "duration_s": 254.0,
+            "total_plays": 27565145
+        },
+        "0cbe7c70-f3ae-49a7-a444-b9930f605c5c": {
+            "song_name": "Come Back to Earth",
+            "artist": "Mac Miller",
+            "album": "Swimming",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/9f0e333c941c1a0147fc5d347d343e6d.png",
+            "tags": [
+                [
+                    "Neo-Soul",
+                    "100"
+                ],
+                [
+                    "alternative rnb",
+                    "100"
+                ],
+                [
+                    "pop rap",
+                    "67"
+                ],
+                [
+                    "MySpotigramBot",
+                    "67"
+                ],
+                [
+                    "Hip-Hop",
+                    "34"
+                ]
+            ],
             "duration_s": 0.0,
-            "total_plays": 334
+            "total_plays": 9227204
         }
     },
     "song_rankings": [
-        "dab931a9-a23a-44c7-bb1f-4405d7d6956a",
-        "9d452dee-943b-4c5a-bb1e-7fdbce1c7b30"
+        "529473db-7b17-4122-974f-190738db9682",
+        "73de2e14-1eaa-425d-b98e-e2b9d6507399",
+        "61d912e5-c974-4673-a656-2f83280b826d",
+        "0cbe7c70-f3ae-49a7-a444-b9930f605c5c",
+        "5b7daa7c-6088-472b-8472-9c0afd3ffc4a",
+        "4d44b4fb-78e9-4c2c-8c56-4360a1364479",
+        "773474fe-04f7-46f1-80a8-2d18ce44e69c",
+        "17e47c71-5f6b-4a7c-90fe-d2c98e36256d",
+        "5348a122-ea4c-44f5-9047-5d06694dc6bf",
+        "b1ad80eb-ac85-48ca-a633-67197574666c"
     ],
     "album_data": {
-        "46a11e1d-b5d8-4463-9fde-ce11b90a08c4": {
+        "5c6c88ae-c86c-430b-a4b9-0c49773df98d": {
+            "album_name": "blonded",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/e51eb654723ca1119d08279ccfb01ad9.png",
+            "artist": "Frank Ocean",
+            "track_list": []
+        },
+        "a9aaa0a5-c5fa-4eeb-bc59-cfbb855e83a6": {
+            "album_name": "SOS",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/b2cfb5bdf137f4d6293565205965750f.jpg",
+            "artist": "SZA",
+            "track_list": [
+                "SOS",
+                "Kill Bill",
+                "Seek & Destroy",
+                "Low",
+                "Love Language",
+                "Blind",
+                "Used (feat. Don Toliver)",
+                "Snooze",
+                "Notice Me",
+                "Gone Girl",
+                "Smoking on My Ex Pack",
+                "Ghost in the Machine (feat. Phoebe Bridgers)",
+                "F2F",
+                "Nobody Gets Me",
+                "Conceited",
+                "Special",
+                "Too Late",
+                "Far",
+                "Shirt",
+                "Open Arms (feat. Travis Scott)",
+                "I Hate U",
+                "Good Days",
+                "Forgiveless (feat. Ol' Dirty Bastard)"
+            ]
+        },
+        "f4040bfb-b320-4a50-91c9-ef740cd1847a": {
+            "album_name": "Gemini Rights",
+            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/12dcf1122cccf14bd8d943480d04cd58.jpg",
+            "artist": "Steve Lacy",
+            "track_list": [
+                "Static",
+                "Helmet",
+                "Mercury",
+                "Buttons",
+                "Bad Habit",
+                "2gether (Enterlude)",
+                "Cody Freestyle",
+                "Amber",
+                "Sunshine (feat. Foushe\u00e9)",
+                "Give You the World"
+            ]
+        },
+        "8be38fd2-a551-448e-b867-b07ba833d5be": {
             "album_name": "gnx",
             "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/a79564a9768d05272682b252deb02079.png",
-            "artist": "kendrick lamar",
+            "artist": "Kendrick Lamar",
             "track_list": [
                 "wacced out murals",
                 "squabble up",
@@ -63,80 +377,17 @@
                 "gnx",
                 "gloria"
             ]
-        },
-        "67ad31a8-13ea-40ee-b987-036b6b0adbf9": {
-            "album_name": "Chromakopia",
-            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/8c0b389bb4cbf522bc5a2b58e15b6620.jpg",
-            "artist": "Tyler, the Creator",
-            "track_list": [
-                "ST. CHROMA",
-                "Rah Tah Tah",
-                "NOID",
-                "DARLING, I",
-                "Hey Jane",
-                "I Killed You",
-                "Judge Judy",
-                "Sticky",
-                "Take Your Mask Off",
-                "TOMORROW",
-                "THOUGHT I WAS DEAD",
-                "Like Him",
-                "Balloon",
-                "I Hope You Find Your Way Home"
-            ]
-        },
-        "f01e9ee5-5c38-4f0f-bcb0-eece5bfb5b77": {
-            "album_name": "Fearless",
-            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/d8888f990ce044e4c856550a7041c83e.jpg",
-            "artist": "Taylor Swift",
-            "track_list": [
-                "Fearless",
-                "Fifteen",
-                "Love Story",
-                "Hey Stephen",
-                "White Horse",
-                "You Belong with Me",
-                "Breathe (feat. Colbie Caillat)",
-                "Tell Me Why",
-                "You're Not Sorry",
-                "The Way I Loved You",
-                "Forever & Always",
-                "The Best Day",
-                "Change"
-            ]
-        },
-        "18bd04ca-a461-4306-9359-611ae5a2395c": {
-            "album_name": "The Forever Story",
-            "album_cover": "https://lastfm.freetls.fastly.net/i/u/300x300/f5ebc39b1f907ab9e0df8ea47841f0c5.jpg",
-            "artist": "JID",
-            "track_list": [
-                "Galaxy",
-                "Raydar",
-                "Dance Now",
-                "Crack Sandwich",
-                "Can't Punk Me",
-                "Surround Sound",
-                "Kody Blu 31",
-                "Bruddanem",
-                "Sistanem",
-                "Can't Make U Change",
-                "Stars",
-                "Just In Time",
-                "Money",
-                "Better Days",
-                "Lauder Too"
-            ]
         }
     },
     "album_rankings": [
-        "18bd04ca-a461-4306-9359-611ae5a2395c",
-        "46a11e1d-b5d8-4463-9fde-ce11b90a08c4",
-        "f01e9ee5-5c38-4f0f-bcb0-eece5bfb5b77",
-        "67ad31a8-13ea-40ee-b987-036b6b0adbf9"
+        "a9aaa0a5-c5fa-4eeb-bc59-cfbb855e83a6",
+        "5c6c88ae-c86c-430b-a4b9-0c49773df98d",
+        "8be38fd2-a551-448e-b867-b07ba833d5be",
+        "f4040bfb-b320-4a50-91c9-ef740cd1847a"
     ],
     "artist_data": {
-        "04aee1db-eacb-4979-a848-04a816769ec8": {
-            "artist_name": "kendrick lamar",
+        "04743fdb-0dce-4c3d-a92c-78c7776d372b": {
+            "artist_name": "Kendrick Lamar",
             "listener_count": 4299217,
             "top_tracks": [
                 [
@@ -161,62 +412,62 @@
                 ]
             ]
         },
-        "eb3bc28e-4afe-4239-927b-b8d2e91fee80": {
-            "artist_name": "Billie Eilish",
-            "listener_count": 3479881,
+        "3163aea2-6c47-471d-a763-032fc8ab9ee4": {
+            "artist_name": "Mac Miller",
+            "listener_count": 2963673,
             "top_tracks": [
                 [
-                    "BIRDS OF A FEATHER",
-                    37034755
+                    "The Spins",
+                    15141378
                 ],
                 [
-                    "bad guy",
-                    16482266
+                    "Self Care",
+                    12750787
                 ],
                 [
-                    "when the party's over",
-                    16757214
+                    "Small Worlds",
+                    9600615
                 ],
                 [
-                    "Lunch",
-                    19680341
+                    "Knock Knock",
+                    5025400
                 ],
                 [
-                    "Happier Than Ever",
-                    22590058
+                    "Congratulations (feat. Bilal)",
+                    8925616
                 ]
             ]
         },
-        "7c483b2c-58e4-4d67-af1e-561123d26d9a": {
-            "artist_name": "Taylor Swift",
-            "listener_count": 5044897,
+        "c92d3c13-0f91-46fd-a59e-cdb62b3273aa": {
+            "artist_name": "Frank Ocean",
+            "listener_count": 3598698,
             "top_tracks": [
                 [
-                    "Blank Space",
-                    23127635
+                    "Pink + White",
+                    45618089
                 ],
                 [
-                    "Cruel Summer",
-                    41277819
+                    "Thinkin Bout You",
+                    27561941
                 ],
                 [
-                    "Shake It Off",
-                    15804539
+                    "Lost",
+                    24606901
                 ],
                 [
-                    "carDIGan",
-                    36538958
+                    "Ivy",
+                    33106723
                 ],
                 [
-                    "Style",
-                    26283945
+                    "nights",
+                    31948595
                 ]
             ]
         }
     },
     "artist_rankings": [
-        "04aee1db-eacb-4979-a848-04a816769ec8",
-        "eb3bc28e-4afe-4239-927b-b8d2e91fee80",
-        "7c483b2c-58e4-4d67-af1e-561123d26d9a"
+        "04743fdb-0dce-4c3d-a92c-78c7776d372b",
+        "c92d3c13-0f91-46fd-a59e-cdb62b3273aa",
+        "3163aea2-6c47-471d-a763-032fc8ab9ee4"
     ]
 }
